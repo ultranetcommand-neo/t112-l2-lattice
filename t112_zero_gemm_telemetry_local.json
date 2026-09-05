@@ -1,0 +1,75 @@
+{
+  "host": {
+    "system": "Windows",
+    "machine": "AMD64",
+    "processor": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+    "python": "3.12.10"
+  },
+  "lattice": {
+    "N": 6328,
+    "degree": 6,
+    "dtype": "uint16",
+    "lut_bytes": 75936,
+    "lut_kib": 74.15625,
+    "construction": "circulant offsets {+/-1,+/-2,+/-3} mod N"
+  },
+  "hops": {
+    "count": 50000000,
+    "median_s": 0.28765409998595715,
+    "ns_per_hop": 5.753081999719143,
+    "hops_per_s": 173819876.03319725,
+    "samples_s": [
+      0.2777026000258047,
+      0.2792536999913864,
+      0.28757450002012774,
+      0.28765409998595715,
+      0.29040580001310445,
+      0.2965820000099484,
+      0.2991461000056006
+    ]
+  },
+  "fail_closed": {
+    "poison_after_hops": 100,
+    "median_detect_s": 8.00006091594696e-07,
+    "detect_ns": 800.006091594696
+  },
+  "gemm": [
+    {
+      "dim": 64,
+      "dtype": "float32",
+      "bytes_ab": 32768,
+      "median_s": 5.80001506023109e-06,
+      "ns": 5800.01506023109,
+      "gflops": 90.3942480416785,
+      "hops_in_one_gemm": 1008.1578987600451
+    },
+    {
+      "dim": 256,
+      "dtype": "float32",
+      "bytes_ab": 524288,
+      "median_s": 0.00021989998640492558,
+      "ns": 219899.98640492558,
+      "gflops": 152.58951375382352,
+      "hops_in_one_gemm": 38222.98837660593
+    },
+    {
+      "dim": 512,
+      "dtype": "float32",
+      "bytes_ab": 2097152,
+      "median_s": 0.0008512999920640141,
+      "ns": 851299.9920640141,
+      "gflops": 315.32416128557276,
+      "hops_in_one_gemm": 147972.85908762872
+    },
+    {
+      "dim": 1024,
+      "dtype": "float32",
+      "bytes_ab": 8388608,
+      "median_s": 0.0035632000071927905,
+      "ns": 3563200.0071927905,
+      "gflops": 602.6840041718175,
+      "hops_in_one_gemm": 619354.9835317384
+    }
+  ],
+  "note": "Hops are integer LUT walks, not language-model tokens. GEMM is dense float32 matmul of the stated order."
+}
