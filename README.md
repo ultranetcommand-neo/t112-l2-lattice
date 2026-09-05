@@ -4,7 +4,10 @@
 
 A 6-regular graph on N = T_112 = 6328 nodes. The whole adjacency table is `uint16[6328][6]` = **75,936 bytes**. It fits in a **256 KiB** Kaby Lake L2 (29%). It is not a language model.
 
-Paper: [`PAPER.md`](PAPER.md)
+| | |
+|---|---|
+| Paper | [`PAPER.md`](PAPER.md) · [doi:10.5281/zenodo.22406010](https://doi.org/10.5281/zenodo.22406010) |
+| Table | [UltranetCommand/t112-l2-lattice](https://huggingface.co/datasets/UltranetCommand/t112-l2-lattice) (**dataset**, not a model) |
 
 ```text
 python verify_t112.py

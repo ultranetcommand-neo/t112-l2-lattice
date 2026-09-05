@@ -6,7 +6,9 @@ Crimson OS / Ultranet Command
 
 **Reproduce:** `python t112_zero_gemm_bench.py`  
 **C hop harness (Linux `perf`):** `gcc -O3 -march=native -std=c11 bench_l2_graph.c -o bench_l2_graph`  
-**Telemetry:** `t112_zero_gemm_telemetry_neo.json`, `t112_zero_gemm_telemetry_local.json`
+**Telemetry:** `t112_zero_gemm_telemetry_neo.json`, `t112_zero_gemm_telemetry_local.json`  
+**DOI:** https://doi.org/10.5281/zenodo.22406010  
+**Table (dataset, not a model):** https://huggingface.co/datasets/UltranetCommand/t112-l2-lattice
 
 ---
 
