@@ -8,6 +8,7 @@ A 6-regular graph on N = T_112 = 6328 nodes. The whole adjacency table is `uint1
 |---|---|
 | Paper | [`PAPER.md`](PAPER.md) · [doi:10.5281/zenodo.22406010](https://doi.org/10.5281/zenodo.22406010) |
 | Table | [UltranetCommand/t112-l2-lattice](https://huggingface.co/datasets/UltranetCommand/t112-l2-lattice) (**dataset**, not a model) |
+| Author | Matthew Scott Gibson · [ORCID 0009-0001-4167-201X](https://orcid.org/0009-0001-4167-201X) |
 
 ```text
 python verify_t112.py
@@ -50,4 +51,5 @@ pip install numpy numba
 
 Hops are not tokens. GEMM is vendor BLAS, not a naive triple loop.
 
-Apache-2.0. Matt Gibson / Crimson OS.
+Apache-2.0. Matthew Scott Gibson / Crimson OS.
+ORCID: https://orcid.org/0009-0001-4167-201X
