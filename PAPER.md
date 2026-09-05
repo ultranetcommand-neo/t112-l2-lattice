@@ -1,6 +1,7 @@
 # Deterministic Integer Topologies: Bypassing the Matrix-Multiplication Bottleneck via Cache-Resident Graph Traversal
 
-**Matt Gibson**  
+**Matthew Scott Gibson**  
+ORCID: [0009-0001-4167-201X](https://orcid.org/0009-0001-4167-201X)  
 Crimson OS / Ultranet Command  
 5 September 2026  
 
