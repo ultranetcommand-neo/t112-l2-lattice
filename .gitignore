@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.numba_cache/
+wheels_neo/
+*.o
+bench_l2_graph
+bench_l2_graph.exe
+t112_zero_gemm_telemetry.json
