@@ -2,13 +2,14 @@
 
 **Matthew Scott Gibson**  
 ORCID: [0009-0001-4167-201X](https://orcid.org/0009-0001-4167-201X)  
-Crimson OS / Ultranet Command  
+Crimson OS  
 5 September 2026  
 
 **Reproduce:** `python t112_zero_gemm_bench.py`  
 **C hop harness (Linux `perf`):** `gcc -O3 -march=native -std=c11 bench_l2_graph.c -o bench_l2_graph`  
 **Telemetry:** `t112_zero_gemm_telemetry_neo.json`, `t112_zero_gemm_telemetry_local.json`  
-**DOI:** https://doi.org/10.5281/zenodo.22406010  
+**DOI (all versions):** https://doi.org/10.5281/zenodo.22406009  
+**This version:** https://doi.org/10.5281/zenodo.22431987  
 **Table (dataset, not a model):** https://huggingface.co/datasets/UltranetCommand/t112-l2-lattice
 
 ---
